@@ -1,0 +1,51 @@
+
+body {
+    font-family: 'Inter';
+    min-height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    height: 50px;
+    width: auto;
+    background-color: black;
+    color: white;
+    font-style: bold;
+}
+
+h1 {
+    margin: auto;
+    padding: 10px;
+    padding-left: 170px;
+}
+
+.content {
+    padding-left: 170px;
+    margin: auto 0;
+}
+
+img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 8px solid rgba(0, 110, 255, 0.842);
+  }
+
+ .description {
+    display: flex;
+ }
+footer {
+    height: 41px;
+    background-color: #F2F2F2;
+   margin-top: auto;
+}
+
+.footnav {
+    font-size: 14px;
+    font-family: 'Inter';
+    color: #111115;
+    padding-top: 0.5rem;
+    padding-left: 170px;
+}
