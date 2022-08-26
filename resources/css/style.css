@@ -1,30 +1,25 @@
-
 body {
     font-family: 'Inter';
-    min-height: 100vh;
-    margin-bottom: 50px;
-    display: flex;
-    flex-direction: column;
-    
+    flex-direction: column; 
 }
 
 nav {
     height: 50px;
-    width: auto;
     background-color: black;
     color: white;
     font-style: bold;
+    width: 100%;
+
 }
+   
 
 h1 {
-    margin: auto;
-    padding: 10px;
     padding-left: 170px;
 }
 
 .content {
     padding-left: 170px;
-    flex: 1 0 auto;
+    
 }
 
 img {
@@ -37,12 +32,13 @@ img {
  .description {
     display: flex;
  }
+
 footer {
     height: 41px;
     background-color: #F2F2F2;
     padding-bottom: 0px;
-    position:fixed;
-    bottom:0;
+    position: fixed;
+    bottom: 0;
     width: 100%;
 }
 
